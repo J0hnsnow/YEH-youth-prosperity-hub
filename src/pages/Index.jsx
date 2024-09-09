@@ -56,7 +56,7 @@ const Index = () => {
             <CardDescription>Contribute and earn rewards</CardDescription>
           </CardHeader>
           <CardContent>
-            <SustainabilityRewards />
+            <Button onClick={() => navigate('/sustainability-rewards')}>View Projects</Button>
           </CardContent>
         </Card>
 
