@@ -1,8 +1,10 @@
-import { HomeIcon, CreditCardIcon, HeartPulseIcon, ShieldIcon } from "lucide-react";
+import { HomeIcon, CreditCardIcon, HeartPulseIcon, ShieldIcon, BookOpenIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import MicroCreditApplication from "./pages/MicroCreditApplication.jsx";
 import HealthcareInsuranceApplication from "./pages/HealthcareInsuranceApplication.jsx";
 import DataPrivacyTools from "./components/DataPrivacyTools.jsx";
+import FinancialEducationCourses from "./components/FinancialEducationCourses.jsx";
+import CourseDetails from "./components/CourseDetails.jsx";
 
 export const navItems = [
   {
@@ -28,5 +30,17 @@ export const navItems = [
     to: "/data-privacy-tools",
     icon: <ShieldIcon className="h-4 w-4" />,
     page: <DataPrivacyTools />,
+  },
+  {
+    title: "Financial Education Courses",
+    to: "/courses",
+    icon: <BookOpenIcon className="h-4 w-4" />,
+    page: <FinancialEducationCourses />,
+  },
+  {
+    title: "Course Details",
+    to: "/course/:id",
+    icon: <BookOpenIcon className="h-4 w-4" />,
+    page: <CourseDetails />,
   },
 ];
