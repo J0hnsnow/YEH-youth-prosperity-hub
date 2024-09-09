@@ -1,4 +1,4 @@
-import { HomeIcon, CreditCardIcon, HeartPulseIcon, ShieldIcon, BookOpenIcon, LeafIcon } from "lucide-react";
+import { HomeIcon, CreditCardIcon, HeartPulseIcon, ShieldIcon, BookOpenIcon, LeafIcon, VoteIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import MicroCreditApplication from "./pages/MicroCreditApplication.jsx";
 import HealthcareInsuranceApplication from "./pages/HealthcareInsuranceApplication.jsx";
@@ -6,6 +6,7 @@ import DataPrivacyTools from "./components/DataPrivacyTools.jsx";
 import FinancialEducationCourses from "./components/FinancialEducationCourses.jsx";
 import CourseDetails from "./components/CourseDetails.jsx";
 import SustainabilityRewards from "./components/SustainabilityRewards.jsx";
+import CommunityGovernance from "./pages/CommunityGovernance.jsx";
 
 export const navItems = [
   {
@@ -49,5 +50,11 @@ export const navItems = [
     to: "/sustainability-rewards",
     icon: <LeafIcon className="h-4 w-4" />,
     page: <SustainabilityRewards />,
+  },
+  {
+    title: "Community Governance",
+    to: "/community-governance",
+    icon: <VoteIcon className="h-4 w-4" />,
+    page: <CommunityGovernance />,
   },
 ];

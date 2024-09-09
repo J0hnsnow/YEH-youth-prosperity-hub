@@ -5,9 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import MicroCreditSystem from '../components/MicroCreditSystem';
 import FinancialEducation from '../components/FinancialEducation';
 import HealthcareInsurance from '../components/HealthcareInsurance';
-import SustainabilityRewards from '../components/SustainabilityRewards';
-import DataPrivacyTools from '../components/DataPrivacyTools';
-import CommunityGovernance from '../components/CommunityGovernance';
 
 const Index = () => {
   const navigate = useNavigate();
@@ -76,7 +73,7 @@ const Index = () => {
             <CardDescription>Participate in decision-making</CardDescription>
           </CardHeader>
           <CardContent>
-            <CommunityGovernance />
+            <Button onClick={() => navigate('/community-governance')}>View Proposals</Button>
           </CardContent>
         </Card>
       </div>
