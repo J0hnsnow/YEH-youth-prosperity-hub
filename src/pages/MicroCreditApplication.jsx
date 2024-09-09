@@ -47,7 +47,8 @@ const MicroCreditApplication = () => {
               className="mt-1"
             />
           </div>
-          <Button type="submit" className="w-full">Submit Application</Button>
+          <Button type="submit" className="w-full mb-4">Submit Application</Button>
+          <Button variant="outline" className="w-full" onClick={() => navigate('/')}>Back to Home</Button>
         </form>
       </div>
     </div>
