@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { useNavigate } from 'react-router-dom';
 import MicroCreditSystem from '../components/MicroCreditSystem';
 import FinancialEducation from '../components/FinancialEducation';
 import HealthcareInsurance from '../components/HealthcareInsurance';
@@ -9,6 +10,8 @@ import DataPrivacyTools from '../components/DataPrivacyTools';
 import CommunityGovernance from '../components/CommunityGovernance';
 
 const Index = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-green-100 p-8">
       <header className="text-center mb-12">
@@ -63,7 +66,7 @@ const Index = () => {
             <CardDescription>Control your personal information</CardDescription>
           </CardHeader>
           <CardContent>
-            <DataPrivacyTools />
+            <Button onClick={() => navigate('/data-privacy-tools')}>Manage Data Privacy</Button>
           </CardContent>
         </Card>
 
