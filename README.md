@@ -27,3 +27,23 @@ This project is built with .
 - React
 - shadcn-ui
 - Tailwind CSS
+
+  Artificial Intelligence used to build the project frontend
+
+Next features
+Phase 1
+Improve frontend user interface
+
+Phase 2
+login with Wallet authentication
+
+Phase 3
+Integration to the cardano blockchain
+
+Phase 4
+Implementation of the dao
+
+Phase 5
+
+
+
