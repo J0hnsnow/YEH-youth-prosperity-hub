@@ -41,9 +41,12 @@ Phase 3
 Integration to the cardano blockchain
 
 Phase 4
-Implementation of the dao
+Implementation of the dao, smart contracts, NFTs and earning mechanisms
 
 Phase 5
+Security features and audits
 
+Phase 6
+Governance coin development and launch
 
 
